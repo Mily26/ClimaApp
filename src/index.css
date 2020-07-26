@@ -1,13 +1,40 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-image: url("https://celcliptipsprod.s3-ap-northeast-1.amazonaws.com/tips_article_body/9caf/450558/4873acb46f525a1052f62d0f0364e528");
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+    background-color: #DFFDFF;
+    margin-top: 2em;
+}
+.input {
+background-color: #DFFDFF;
+}
+.btn {
+    background-color: #41658A;
+    font-size: 1em;
+}
+.btn:hover {
+    background-color: #14213D;
+}
+.btn-success:not(:disabled):not(.disabled):active {
+    background-color: lightblue;
+    color: #14213D;
+}
+.btn-success {
+    border: 0;
+}
+.footer {
+    color: #DFFDFF;
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 1.3em;
+    font-style: italic;
+   text-align: center;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+    
+}
+.footer a {
+    color: #DFFDFF;
 }
